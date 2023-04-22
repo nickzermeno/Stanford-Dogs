@@ -1,36 +1,44 @@
 # Stanford Dogs
-This project contains code and resources for working with the Stanford Dogs dataset. The dataset contains over 20,000 annotated images of 120 dog breeds, with bounding boxes and object masks.
+
+This is a computer vision project that aims to classify dog breeds using the Stanford Dogs dataset. The project is built using Python and various computer vision libraries, such as TensorFlow, Keras, OpenCV, and Matplotlib.
 
 ## Getting Started
-Prerequisites
-To run the code in this project, you will need:
 
-- Python 3.6 or higher
-- TensorFlow 2.0 or higher
-- NumPy
-- Matplotlib
+To get started with this project, you will need to clone this repository to your local machine and install the required libraries.
+
+### Prerequisites
+
+The following are the prerequisites to run this project:
+
+- Python 3.x
+- TensorFlow
+- Keras
 - OpenCV
-- Pandas
+- Matplotlib
 
-## Downloading the dataset
-The dataset can be downloaded from the official website.
+## Dataset
 
-After downloading the dataset, extract the contents of the archive into a directory called data in the root of the project.
+The dataset used in this project is the Stanford Dogs dataset, which contains over 20,000 images of 120 dog breeds. The dataset is available for download on the [Stanford Dogs website](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-## Running the code
-The code for working with the dataset is contained in the Jupyter notebook main.ipynb. To open the notebook, run:
+The dataset can be found in the `Datasets` directory.
 
-Copy code
-jupyter notebook main.ipynb
-From there, you can run each cell in the notebook to perform various tasks, such as:
+## Computer Vision Models
 
-Loading the dataset
-Preprocessing the images
-Training a convolutional neural network
-Evaluating the model on a test set
+Various computer vision models were used to classify the dog breeds. The models used are:
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Convolutional Neural Network (CNN)
+- Transfer Learning using VGG16
+
+The models were trained and tested using the `main.ipynb` Jupyter notebook.
+
+## Results
+
+The results of the computer vision models are presented in the `StanfordDogsReport.pdf` report.
+
+## Authors
+
+- Nick Zermeno - [GitHub](https://github.com/nickzermeno)
 
 ## Acknowledgments
-This project was inspired by the work of Aditya Khosla, Nikhil Naik, and Farhan A. Khan, who collected and annotated the dataset.
+
+- The Stanford Dogs dataset was obtained from the [Stanford Dogs website](http://vision.stanford.edu/aditya86/ImageNetDogs/).
