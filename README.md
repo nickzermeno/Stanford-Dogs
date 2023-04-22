@@ -10,12 +10,8 @@ TensorFlow 2.0 or higher
 NumPy
 Matplotlib
 OpenCV
-Pillow
-## Installation
-To install the required packages, run:
+Pandas
 
-Copy code
-pip install -r requirements.txt
 ## Downloading the dataset
 The dataset can be downloaded from the official website.
 
