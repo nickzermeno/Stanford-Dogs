@@ -5,12 +5,12 @@ This project contains code and resources for working with the Stanford Dogs data
 Prerequisites
 To run the code in this project, you will need:
 
-Python 3.6 or higher
-TensorFlow 2.0 or higher
-NumPy
-Matplotlib
-OpenCV
-Pandas
+- Python 3.6 or higher
+- TensorFlow 2.0 or higher
+- NumPy
+- Matplotlib
+- OpenCV
+- Pandas
 
 ## Downloading the dataset
 The dataset can be downloaded from the official website.
